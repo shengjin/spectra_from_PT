@@ -1,0 +1,12 @@
+files include initial parameter(check and modify before make):
+
+	commonPTSpetc.h
+	PTSpetc.f90
+	spectra.f90
+	Tempcomparison in calcspecrum.f90
+	MAXLINE in readopacity.f90,readstructure.f90
+
+
+!1 read from two files: atmocopo.dat, structure.dat
+!2 set opacity at 2000<T<2100 = opac at T=2000, interpolate.f90
+!newest: myspectra in /disk6/jin/
